@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script src="/static/player/js/hdwplayer.js"></script>
+    </head>
+    <body>
+        <div id="player"></div>
+        <script type="text/javascript">
+            hdwplayer({
+                id        : 'player',
+                swf       : 'static/player/player.swf',
+                width     : '640',
+                height    : '334',
+                type      : 'rtmp',
+                streamer  : 'rtmp://192.168.0.5/live',
+                video     : 'sample',
+                autoStart : 'true',
+                controlBar: 'false'
+            });
+        </script>
+    </body>
+</html>
