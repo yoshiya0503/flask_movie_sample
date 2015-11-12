@@ -17,4 +17,4 @@ def show_movie():
     return render_template('movie.html')
 
 if __name__ == '__main__':
-    app.run();
+    app.run(host='0.0.0.0');
